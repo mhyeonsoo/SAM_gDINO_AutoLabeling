@@ -39,7 +39,7 @@ wget https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alp
 ```
 
 #### 2. Run the jupyter notebook
-[Auto-Label-Generation](https://github.com/mhyeonsoo/SAM_gDINO_AutoLabeling/blob/main/SAM_test.ipynb) is a notebook for generating labels
+[Auto-Label-Generation](https://github.com/mhyeonsoo/SAM_gDINO_AutoLabeling/blob/main/Auto_labeling.ipynb) is a notebook for generating labels
 **- Format of generated annotation**
 ```
 1. Yolov8
@@ -47,7 +47,7 @@ wget https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alp
 ```
 
 #### 3. Custom configs / arguments
-To get the labels for your custom image inputs, we need to modify these in the [Auto-Label-Generation](https://github.com/mhyeonsoo/SAM_gDINO_AutoLabeling/blob/main/SAM_test.ipynb) notebook.
+To get the labels for your custom image inputs, we need to modify these in the [Auto-Label-Generation](https://github.com/mhyeonsoo/SAM_gDINO_AutoLabeling/blob/main/Auto_labeling.ipynb) notebook.
 
 **1. text prompt input for grounding DINO**
 ```python
