@@ -40,6 +40,7 @@ wget https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alp
 
 #### 2. Run the jupyter notebook
 [Auto-Label-Generation](https://github.com/mhyeonsoo/SAM_gDINO_AutoLabeling/blob/main/Auto_labeling.ipynb) is a notebook for generating labels
+
 **- Format of generated annotation**
 ```
 1. Yolov8
