@@ -50,12 +50,12 @@ wget https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alp
 #### 3. Custom configs / arguments
 To get the labels for your custom image inputs, we need to modify these in the [Auto-Label-Generation](https://github.com/mhyeonsoo/SAM_gDINO_AutoLabeling/blob/main/Auto_labeling.ipynb) notebook.
 
-**1. text prompt input for grounding DINO**
+##### **1. text prompt input for grounding DINO**
 ```python
 TEXT_PROMPT = "[classes of custom dataset]" 
 # (for multi-class, you can add . between each class --> 'class1 . class2 . class3')
 ```
-**2. category list for COCO annotation**
+##### **2. category list for COCO annotation**
 ```python
 CAT_ID = {'class1': 1, 'class2': 2, 'class3': 3, 'class4': 4, 'class5': 5, 'class6': 6}
 # COCO category list is in form of a python dictionary
