@@ -8,25 +8,25 @@ Auto Segmentation label generation with SAM (Segment Anything) + Grounding DINO
 ## How To Use
 ### 1. Requirements
 - You should set the environment variable manually as follows if you want to build a local GPU environment for Grounded-SAM first.
-```
+```shell
 export AM_I_DOCKER=False
 export BUILD_WITH_CUDA=True
 export CUDA_HOME=/path/to/cuda-11.3/
 ```
 - Install Segment Anything:
-```
+```shell
 python -m pip install -e segment_anything
 ```
 - Install Grounding DINO:
-```
+```shell
 python -m pip install -e GroundingDINO
 ```
 - Install diffusers:
-```
+```shell
 pip install --upgrade diffusers[torch]
 ```
 - These are necessary packages which may be required to run post-processes
-```
+```shell
 pip install opencv-python pycocotools matplotlib onnxruntime onnx ipykernel
 ```
 
