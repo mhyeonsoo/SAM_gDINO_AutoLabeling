@@ -2,7 +2,7 @@
 Auto Segmentation label generation with SAM (Segment Anything) + Grounding DINO
 
 - This is a project based on the [Grounded-Segment-Anything](https://github.com/IDEA-Research/Grounded-Segment-Anything)
-- Thanks to [Grounded-Segment-Anything](https://github.com/IDEA-Research/Grounded-Segment-Anything) and [Yolov8-SAM](https://github.com/akashAD98/YOLOV8_SAM) to developing wonderful codes using SAM.
+- Thanks to [Grounded-Segment-Anything](https://github.com/IDEA-Research/Grounded-Segment-Anything) and [Yolov8-SAM](https://github.com/akashAD98/YOLOV8_SAM) for developing wonderful codes using SAM.
 
 
 ## How To Use
